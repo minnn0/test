@@ -65,24 +65,31 @@
     </header>
     <div id="container">
         <div class="page_hd">
-            <p class="page_tit">체크시트</p>
+            <p class="page_tit">공정이동</p>
             <p class="user_info"><i class="xi-user"></i>2025213(박희철)</p>
         </div>
         <div class="contents">
             <!-- 필터 영역 -->
             <div class="filter_box">
                 <div class="filter_wrap">
-                    <p class="tit">공정</p>
-                    <input type="text" placeholder="-">
-                </div>
-                <div class="filter_wrap search">
-                    <p class="tit">SHEET ID</p>
-                    <input type="text" placeholder="-">
-                    <a class="btn_search" href="#"><i class="xi-search"></i><span class="blind">검색버튼</span></a>
+                    <p class="tit">인수공정</p>
+                    <div class="select_wrap">
+                        <select>
+                            <option></option>
+                        </select>
+                    </div>
                 </div>
                 <div class="filter_wrap">
-                    <p class="tit">항목바코드</p>
-                    <input type="text" placeholder="-">
+                    <p class="tit">라인</p>
+                    <div class="select_wrap">
+                        <select>
+                            <option></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="filter_wrap">
+                    <p class="tit">제조번호</p>
+                    <input type="text">
                 </div>
             </div>
             <!-- // 필터 영역 -->
@@ -94,8 +101,10 @@
         </div>
         <!-- 버튼 -->
         <div class="page_btn_wrap">
-            <button class="btn btn_blue" type="button">초기화</button>
-            <button class="btn btn_white" type="button">이전</button>
+            <button class="btn" type="submit">확인</button>
+            <button class="btn" type="submit">전송</button>
+            <button class="btn" type="reset">초기화</button>
+            <button class="btn" type="submit">이전</button>
         </div>
         <!-- // 버튼 -->
     </div>

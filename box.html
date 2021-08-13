@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hyosung tns mos</title>
     <link rel="stylesheet" href="css/common.css">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"> -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
 </head>
 <body>
@@ -63,39 +63,42 @@
             <a class="btn_logout" href="#"><i class="xi-log-out"></i><span class="blind">메뉴열기</span></a>
         </div>
     </header>
-    <div id="container">
+    <div id="container" class="result_container">
         <div class="page_hd">
-            <p class="page_tit">체크시트</p>
+            <p class="page_tit">박스등록</p>
             <p class="user_info"><i class="xi-user"></i>2025213(박희철)</p>
         </div>
         <div class="contents">
             <!-- 필터 영역 -->
             <div class="filter_box">
                 <div class="filter_wrap">
-                    <p class="tit">공정</p>
-                    <input type="text" placeholder="-">
-                </div>
-                <div class="filter_wrap search">
-                    <p class="tit">SHEET ID</p>
-                    <input type="text" placeholder="-">
-                    <a class="btn_search" href="#"><i class="xi-search"></i><span class="blind">검색버튼</span></a>
+                    <p class="tit">국가</p>
+                    <div class="select_wrap">
+                        <select>
+                            <option></option>
+                        </select>
+                    </div>
                 </div>
                 <div class="filter_wrap">
-                    <p class="tit">항목바코드</p>
+                    <p class="tit">PALLET</p>
+                    <input type="text" placeholder="-">
+                </div>
+                <div class="filter_wrap">
+                    <p class="tit">제조번호</p>
                     <input type="text" placeholder="-">
                 </div>
             </div>
             <!-- // 필터 영역 -->
             <!-- 그리드 영역 -->
             <div class="grid_wrap filter3">
-              
             </div>
             <!-- // 그리드 영역 -->
         </div>
         <!-- 버튼 -->
         <div class="page_btn_wrap">
-            <button class="btn btn_blue" type="button">초기화</button>
-            <button class="btn btn_white" type="button">이전</button>
+            <button class="btn" type="submit">완료</button>
+            <button class="btn" type="reset">초기화</button>
+            <button class="btn" type="button">이전</button>
         </div>
         <!-- // 버튼 -->
     </div>

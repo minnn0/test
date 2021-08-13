@@ -27,7 +27,7 @@
                         <div class="btn_wrap">
                             <div class="btn_thirds">
                                 <a class="btn_gnb" href="process.html">공정이동</a>
-                                <a class="btn_gnb" href="#">분배센터</a>
+                                <a class="btn_gnb" href="center.html">분배센터</a>
                                 <a class="btn_gnb" href="#">업체상차</a>
                             </div>
                             <a class="btn_gnb" href="#">작업시작</a>
@@ -63,39 +63,63 @@
             <a class="btn_logout" href="#"><i class="xi-log-out"></i><span class="blind">메뉴열기</span></a>
         </div>
     </header>
-    <div id="container">
+    <div id="container" class="load_container">
         <div class="page_hd">
-            <p class="page_tit">체크시트</p>
+            <p class="page_tit">컨테이너상차</p>
             <p class="user_info"><i class="xi-user"></i>2025213(박희철)</p>
         </div>
         <div class="contents">
             <!-- 필터 영역 -->
             <div class="filter_box">
                 <div class="filter_wrap">
-                    <p class="tit">공정</p>
+                    <p class="tit">상차번호</p>
                     <input type="text" placeholder="-">
-                </div>
-                <div class="filter_wrap search">
-                    <p class="tit">SHEET ID</p>
-                    <input type="text" placeholder="-">
-                    <a class="btn_search" href="#"><i class="xi-search"></i><span class="blind">검색버튼</span></a>
                 </div>
                 <div class="filter_wrap">
-                    <p class="tit">항목바코드</p>
+                    <p class="tit">ITEM</p>
+                    <input type="text" placeholder="-">
+                </div>
+                <div class="filter_wrap">
+                    <p class="tit">ITEM명</p>
+                    <input type="text" placeholder="-">
+                </div>
+                <div class="filter_wrap">
+                    <p class="tit">수주정보</p>
+                    <input type="text" placeholder="-">
+                </div>
+                <div class="filter_wrap">
+                    <p class="tit">계획일자</p>
+                    <input type="text" placeholder="-">
+                </div>
+                <div class="filter_wrap half">
+                    <p class="tit">지시수량</p>
+                    <input type="text" placeholder="-">
+                </div>
+                <div class="filter_wrap half">
+                    <p class="tit">상차수량</p>
+                    <input type="text" placeholder="-">
+                </div>
+                <div class="filter_wrap">
+                    <p class="tit">상차정보</p>
+                    <input type="text" placeholder="-">
+                </div>
+                <div class="filter_wrap">
+                    <p class="tit">제조번호</p>
                     <input type="text" placeholder="-">
                 </div>
             </div>
             <!-- // 필터 영역 -->
             <!-- 그리드 영역 -->
-            <div class="grid_wrap filter3">
+            <div class="grid_wrap filter2">
               
             </div>
             <!-- // 그리드 영역 -->
         </div>
         <!-- 버튼 -->
         <div class="page_btn_wrap">
-            <button class="btn btn_blue" type="button">초기화</button>
-            <button class="btn btn_white" type="button">이전</button>
+            <button class="btn" type="button">초기화</button>
+            <button class="btn" type="button">재출력</button>
+            <button class="btn" type="button">이전</button>
         </div>
         <!-- // 버튼 -->
     </div>

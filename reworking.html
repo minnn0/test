@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hyosung tns mos</title>
     <link rel="stylesheet" href="css/common.css">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"> -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
 </head>
 <body>
@@ -65,7 +65,7 @@
     </header>
     <div id="container">
         <div class="page_hd">
-            <p class="page_tit">체크시트</p>
+            <p class="page_tit">재작업</p>
             <p class="user_info"><i class="xi-user"></i>2025213(박희철)</p>
         </div>
         <div class="contents">
@@ -75,29 +75,72 @@
                     <p class="tit">공정</p>
                     <input type="text" placeholder="-">
                 </div>
-                <div class="filter_wrap search">
-                    <p class="tit">SHEET ID</p>
-                    <input type="text" placeholder="-">
-                    <a class="btn_search" href="#"><i class="xi-search"></i><span class="blind">검색버튼</span></a>
+                <div class="filter_wrap">
+                    <p class="tit">ITEM</p>
+                    <div class="select_wrap">
+                        <select>
+                            <option></option>
+                        </select>
+                    </div>
                 </div>
                 <div class="filter_wrap">
-                    <p class="tit">항목바코드</p>
+                    <p class="tit">작업지시</p>
+                    <div class="select_wrap">
+                        <select>
+                            <option></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="filter_wrap half">
+                    <p class="tit">H/W Rev</p>
+                    <input type="text" placeholder="-">
+                </div>
+                <div class="filter_wrap half">
+                    <p class="tit">H/W Rev</p>
+                    <input type="text" placeholder="-">
+                </div>
+                <div class="filter_wrap half">
+                    <p class="tit">지시수량</p>
+                    <input type="text" placeholder="-">
+                </div>
+                <div class="filter_wrap half">
+                    <p class="tit">완료수량</p>
+                    <input type="text" placeholder="-">
+                </div>
+                <div class="filter_wrap">
+                    <p class="tit">작업기간</p>
+                    <div class="input_wrap">
+                        <input type="text" placeholder="-">
+                    </div>
+                </div>
+                <div class="filter_wrap clear half">
+                    <p class="tit">제조번호</p>
+                    <input type="text" placeholder="-">
+                </div>
+                <div class="filter_wrap clear half">
+                    <p class="tit">공수</p>
+                    <input type="text" placeholder="-">
+                </div>
+                <div class="filter_wrap">
+                    <p class="tit">구성품</p>
                     <input type="text" placeholder="-">
                 </div>
             </div>
             <!-- // 필터 영역 -->
             <!-- 그리드 영역 -->
-            <div class="grid_wrap filter3">
-              
+            <div class="grid_wrap filter8">
+
             </div>
             <!-- // 그리드 영역 -->
         </div>
-        <!-- 버튼 -->
+        <!-- 페이지 버튼 -->
         <div class="page_btn_wrap">
-            <button class="btn btn_blue" type="button">초기화</button>
-            <button class="btn btn_white" type="button">이전</button>
+            <button class="btn" type="submit">확인</button>
+            <button class="btn" type="submit">전송</button>
+            <button class="btn" type="reset">삭제</button>
+            <button class="btn" type="submit">이전</button>
         </div>
-        <!-- // 버튼 -->
+         <!-- // 페이지 버튼 -->
     </div>
     <script src="js/main.js?v=1628581864"></script>
 </body>
